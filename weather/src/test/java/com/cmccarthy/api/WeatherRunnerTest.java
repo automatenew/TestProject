@@ -6,12 +6,10 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = {
-                "src/test/resources/feature/WeatherTest.feature"
-        },
-        plugin = {
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
-        })
+                "src/test/resources/feature/intialize.feature"
+       },glue="com.ctfs.qa.stepdef",
+        		plugin = { "summary", "json:target/cucumber-json.json",
+        "tech.grasshopper.AllureCucumberMappingPlugin:target/cucumber-allure.json" })
 public class WeatherRunnerTest extends AbstractTestNGCucumberTests {
     @Override
     @DataProvider(parallel = true)

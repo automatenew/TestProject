@@ -37,9 +37,10 @@ public class Hooks extends WikipediaAbstractTestDefinition {
 
     @After
     public void afterScenario(Scenario scenario) {
-        hookUtil.endOfTest(scenario);
+        boolean status = hookUtil.endOfTest(scenario);
+        System.out.println("status"+status);
         if (driverManager.getDriver() != null) {
-            WebDriverRunner.closeWebDriver();
+        	driverManager.getDriver() .quit();
         }
     }
 }

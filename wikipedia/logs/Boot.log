@@ -1,0 +1,21 @@
+2022-09-02 15:39:07 [TestNG-PoolService-2] INFO com.cmccarthy.ui.step.Hooks - Starting Hooks on BLR-P7112490LP with PID 7636 (C:\Users\p7112490\git\spring-cucumber-testng-parallel-test-harness\wikipedia\target\test-classes started by P7112490 in C:\Users\p7112490\git\spring-cucumber-testng-parallel-test-harness\wikipedia)
+2022-09-02 15:39:07 [TestNG-PoolService-2] INFO com.cmccarthy.ui.step.Hooks - The following profiles are active: prod
+2022-09-02 15:39:07 [TestNG-PoolService-2] INFO com.cmccarthy.ui.step.Hooks - Started Hooks in 1.231 seconds (JVM running for 3.543)
+2022-09-02 15:39:15 [TestNG-PoolService-1] INFO c.c.ui.step.WikipediaPageSteps - The user navigated to the Wikipedia Homepage : https://www.wikipedia.org/
+2022-09-02 15:39:15 [TestNG-PoolService-2] INFO c.c.ui.step.WikipediaPageSteps - The user navigated to the Wikipedia Homepage : https://www.wikipedia.org/
+2022-09-02 15:39:15 [TestNG-PoolService-0] INFO c.c.ui.step.WikipediaPageSteps - The user navigated to the Wikipedia Homepage : https://www.wikipedia.org/
+2022-09-02 15:39:15 [TestNG-PoolService-2] INFO com.cmccarthy.common.utils.HookUtil - 
+2022-09-02 15:39:15 [TestNG-PoolService-2] INFO com.cmccarthy.common.utils.HookUtil - ==========================================================================
+2022-09-02 15:39:15 [TestNG-PoolService-2] INFO com.cmccarthy.common.utils.HookUtil - ================================Test FAILED===============================
+2022-09-02 15:39:15 [TestNG-PoolService-2] INFO com.cmccarthy.common.utils.HookUtil - ==========================================================================
+2022-09-02 15:39:15 [TestNG-PoolService-2] INFO com.cmccarthy.common.utils.HookUtil - 
+2022-09-02 15:39:15 [TestNG-PoolService-1] INFO com.cmccarthy.common.utils.HookUtil - 
+2022-09-02 15:39:15 [TestNG-PoolService-1] INFO com.cmccarthy.common.utils.HookUtil - ==========================================================================
+2022-09-02 15:39:15 [TestNG-PoolService-1] INFO com.cmccarthy.common.utils.HookUtil - ================================Test FAILED===============================
+2022-09-02 15:39:15 [TestNG-PoolService-1] INFO com.cmccarthy.common.utils.HookUtil - ==========================================================================
+2022-09-02 15:39:15 [TestNG-PoolService-1] INFO com.cmccarthy.common.utils.HookUtil - 
+2022-09-02 15:39:15 [TestNG-PoolService-0] INFO com.cmccarthy.common.utils.HookUtil - 
+2022-09-02 15:39:15 [TestNG-PoolService-0] INFO com.cmccarthy.common.utils.HookUtil - ==========================================================================
+2022-09-02 15:39:15 [TestNG-PoolService-0] INFO com.cmccarthy.common.utils.HookUtil - ================================Test FAILED===============================
+2022-09-02 15:39:15 [TestNG-PoolService-0] INFO com.cmccarthy.common.utils.HookUtil - ==========================================================================
+2022-09-02 15:39:15 [TestNG-PoolService-0] INFO com.cmccarthy.common.utils.HookUtil - 

@@ -4,6 +4,8 @@ import com.cmccarthy.common.service.RestService;
 import com.cmccarthy.common.service.StepDefinitionDataManager;
 import com.cmccarthy.common.utils.ApplicationProperties;
 import io.restassured.response.Response;
+import tech.grasshopper.filter.ExtentRestAssuredFilter;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +27,7 @@ public class WeatherService {
 
     public void getWeatherForLocation(String location) {
         Response response = restService.getRequestSpecification()
+        		.filter(new ExtentRestAssuredFilter())
                 .param("q", location)
                 .param("appid", "0a1b11f110d4b6cd43181d23d724cb94")
                 .get(applicationProperties.getWeatherAppUrl());

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.cmccarthy.ui.WikipediaParallelRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 11.724 s <<< FAILURE! - in com.cmccarthy.ui.WikipediaParallelRunnerTest
+runScenario(com.cmccarthy.ui.WikipediaParallelRunnerTest)  Time elapsed: 10.384 s  <<< FAILURE!
+java.lang.AssertionError: Wikipedia Homepage should be opened
+
+runScenario(com.cmccarthy.ui.WikipediaParallelRunnerTest)  Time elapsed: 10.384 s  <<< FAILURE!
+java.lang.AssertionError: Wikipedia Homepage should be opened
+
+runScenario(com.cmccarthy.ui.WikipediaParallelRunnerTest)  Time elapsed: 10.392 s  <<< FAILURE!
+java.lang.AssertionError: Wikipedia Homepage should be opened
+

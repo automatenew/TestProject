@@ -47,15 +47,15 @@ public class DriverManager {
     private Environment environment;
 
     public void createDriver() throws MalformedURLException {
-        if (getDriver() == null) {
+       // if (getDriver() == null) {
             if (Arrays.toString(this.environment.getActiveProfiles()).contains("jenkins")) {
                 setRemoteDriver(new URL(applicationProperties.getGridUrl()));
             } else {
                 setLocalWebDriver();
             }
-            WebDriverRunner.setWebDriver(getDriver());
-            WebDriverRunner.getWebDriver().manage().deleteAllCookies();//useful for AJAX pages
-        }
+//            WebDriverRunner.setWebDriver(getDriver());
+//            WebDriverRunner.getWebDriver().manage().deleteAllCookies();//useful for AJAX pages
+       // }
     }
 
     public void setLocalWebDriver() {

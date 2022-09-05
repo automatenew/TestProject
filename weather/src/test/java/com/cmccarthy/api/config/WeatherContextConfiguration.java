@@ -9,7 +9,10 @@ import org.springframework.retry.annotation.EnableRetry;
 @Configuration
 @ComponentScan({
         "com.cmccarthy.api",
-        "com.cmccarthy.common"
+        "com.cmccarthy.common",
+        "com.ctfs.qa.api.base",
+        "com.ctfs.qa",
+        
 })
 @PropertySource("classpath:/application.properties")
 public class WeatherContextConfiguration {

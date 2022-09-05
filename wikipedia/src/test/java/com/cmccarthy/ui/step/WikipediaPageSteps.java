@@ -6,6 +6,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.Assert;
 
 import static org.junit.Assert.assertTrue;
 
@@ -36,5 +37,6 @@ public class WikipediaPageSteps extends AbstractStep {
     public void theUserClickedOnTheCommonLink() throws NoSuchFieldException {
         click(wikipediaHomePage.getCommonPage());
         logger.info("The user clicked the Common link on the Homepage");
+        Assert.fail();
     }
 }
